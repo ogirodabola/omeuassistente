@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Assistente de Aula IA",
+  "description": "Transcreva aulas e gere anotações inteligentes com IA.",
+  "version": "0.1.0",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "tabCapture"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
